@@ -6,7 +6,7 @@ metadata:
    region: us-east-1	
 
 manageNodeGroups:
-	- name: expense-1
+	- name: eks-cluster
 	  instanceType: m5.large
 	  desiredCapacity: 3
 	  spot: true 
